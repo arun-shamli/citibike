@@ -56,7 +56,7 @@ function createBikeMap(info, status) {
   };
 
   for (var index = 0; index < stationStatus.length; index++) {
-    if (index > 60) break;
+//     if (index > 60) break;
 
     let station = { ...stationInfo[index], ...stationStatus[index] };
     let statuscode = getStationStatus(station);
